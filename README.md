@@ -25,7 +25,7 @@ owoify-clj is available on [Clojars](https://clojure.org/). You can add owoify-c
 ```clojure
 :dependencies [[net.clojars.deadshot465/owoify-clj "0.1.0"]]
 ```
-Once [cljdoc](https://cljdoc.org) finishes generating the documentation, the documentation can be found at [https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme](https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme).
+Once [cljdoc](https://cljdoc.org) finishes generating the documentation, the documentation can be found at [https://cljdoc.org/d/net.clojars.deadshot465/owoify-clj/0.1.0/doc/readme](https://cljdoc.org/d/net.clojars.deadshot465/owoify-clj/0.1.0/doc/readme).
 
 ## Usage
 
