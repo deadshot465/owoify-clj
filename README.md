@@ -1,7 +1,7 @@
 # owoify-clj
 Turning your worst nightmare into a Clojar.
 
-- [Clojar]()
+[![Clojars Project](https://img.shields.io/clojars/v/net.clojars.deadshot465/owoify-clj.svg)](https://clojars.org/net.clojars.deadshot465/owoify-clj)
 
 This is a Clojure port of [mohan-cao's owoify-js](https://github.com/mohan-cao/owoify-js), which will help you turn any string into nonsensical babyspeak similar to LeafySweet's infamous Chrome extension.
 
@@ -23,9 +23,9 @@ Because [Clojars.org](https://clojars.org/) doesn't have any owoify package yet 
 
 owoify-clj is available on [Clojars](https://clojure.org/). You can add owoify-clj to your dependency in `project.clj`:
 ```clojure
-:dependencies [[owoify-clj "0.1.0"]]
+:dependencies [[net.clojars.deadshot465/owoify-clj "0.1.0"]]
 ```
-Once [cljdoc]() finishes generating the documentation, the documentation can be found at [https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme](https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme).
+Once [cljdoc](https://cljdoc.org) finishes generating the documentation, the documentation can be found at [https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme](https://cljdoc.org/d/owoify-clj/owoify-clj/0.1.0/doc/readme).
 
 ## Usage
 
