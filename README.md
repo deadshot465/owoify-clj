@@ -2,6 +2,7 @@
 Turning your worst nightmare into a Clojar.
 
 [![Clojars Project](https://img.shields.io/clojars/v/net.clojars.deadshot465/owoify-clj.svg)](https://clojars.org/net.clojars.deadshot465/owoify-clj)
+[![Clojure CI](https://github.com/deadshot465/owoify-clj/actions/workflows/clojure.yml/badge.svg)](https://github.com/deadshot465/owoify-clj/actions/workflows/clojure.yml)
 
 This is a Clojure port of [mohan-cao's owoify-js](https://github.com/mohan-cao/owoify-js), which will help you turn any string into nonsensical babyspeak similar to LeafySweet's infamous Chrome extension.
 
