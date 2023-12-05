@@ -7,7 +7,7 @@
 (defn owoify
   "The main entry point of `owoify-clj`.
 
-  Currently there are three levels (owoness) available, from the lightest to the heaviest: owo, uwu, uvu.
+  Currently, there are three levels (owoness) available, from the lightest to the heaviest: owo, uwu, uvu.
   `source` is the source string, while `level` is the specified owoness level."
   [source level]
   (let [words (->> (re-seq #"[^\s]+" source)
@@ -33,3 +33,13 @@
              (reverse)
              (clojure.string/join)
              (clojure.string/trim))))))
+
+(defn uwuify
+  "Owoifies the `source` string using uwu owoness level."
+  [source]
+  (owoify source "uwu"))
+
+(defn uvuify
+  "Owoifies the `source` string using uvu owoness level."
+  [source]
+  (owoify source "uvu"))

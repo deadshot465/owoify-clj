@@ -25,6 +25,20 @@
       (is (> (.length result) 0))
       (is (not (nil? result)))))
 
+  (testing "owoify using uwuify"
+    (let [result (owoify-clj.core/uwuify source)]
+      (println result)
+      (is (> (.length result) 0))
+      (is (not (nil? result)))
+      (is (not (= result source)))))
+
+  (testing "owoify using uvuify"
+    (let [result (owoify-clj.core/uvuify source)]
+      (println result)
+      (is (> (.length result) 0))
+      (is (not (nil? result)))
+      (is (not (= result source)))))
+
   (testing "owofied string is not equal to the source string"
     (let [result (owoify-clj.core/owoify source "owo")]
       (is (not (= result source)))))
