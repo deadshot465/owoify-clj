@@ -24,7 +24,7 @@ Because [Clojars.org](https://clojars.org/) doesn't have any owoify package yet 
 
 owoify-clj is available on [Clojars](https://clojure.org/). You can add owoify-clj to your dependency in `project.clj`:
 ```clojure
-:dependencies [[net.clojars.deadshot465/owoify-clj "0.1.0"]]
+:dependencies [[net.clojars.deadshot465/owoify-clj "1.0.0"]]
 ```
 Once [cljdoc](https://cljdoc.org) finishes generating the documentation, the documentation can be found at [https://cljdoc.org/d/net.clojars.deadshot465/owoify-clj/0.1.1/doc/readme](https://cljdoc.org/d/net.clojars.deadshot465/owoify-clj/0.1.1/doc/readme).
 
@@ -69,7 +69,7 @@ That being said, PRs are always welcomed.
 
 MIT License
 
-Copyright (c) 2021 Chehui Chou
+Copyright (c) 2023 Chehui Chou
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
